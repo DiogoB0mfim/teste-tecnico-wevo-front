@@ -19,7 +19,7 @@ const createUser = (form, gender) => {
     })
 
     .catch((error) => {
-      console.log(error.message);
+      alert(error.response.data);
     });
 };
 

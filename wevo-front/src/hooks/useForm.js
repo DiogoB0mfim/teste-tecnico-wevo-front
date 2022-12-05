@@ -8,7 +8,7 @@ const useForm = (initialState) => {
     setForm({ ...form, [name]: value });
   };
 
-  return [ form, onChange];
+  return [form, onChange];
 };
 
 export default useForm;
